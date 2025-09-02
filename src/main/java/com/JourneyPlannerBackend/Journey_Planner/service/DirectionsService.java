@@ -10,7 +10,7 @@ import java.util.Map;
 @Service
 public class DirectionsService {
 
-    @Value("${google.maps.api.key}") // Use a separate key for Maps if needed
+    @Value("${GOOGLE_MAPS_API_KEY}") // Use a separate key for Maps if needed
     private String apiKey;
 
     private final RestTemplate restTemplate = new RestTemplate();

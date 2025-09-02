@@ -14,7 +14,7 @@ import java.util.List;
 public class GeminiService {
 
     // Inject the API Key from application.properties
-    @Value("${gemini.api.key}")
+    @Value("${GEMINI_API_KEY}")
     private String apiKey;
 
     private final RestTemplate restTemplate = new RestTemplate();
