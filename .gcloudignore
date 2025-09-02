@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# But DO NOT ignore these essential files and folders
+!src/
+!pom.xml
+!mvnw
+!mvnw.cmd
+!.mvn/
+!Dockerfile
+
+# This is the most critical line:
+# It explicitly tells gcloud to INCLUDE your packaged JAR file.
+!target/Journey_Planner-0.0.1-SNAPSHOT.jar
